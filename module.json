@@ -1,0 +1,29 @@
+{
+    "name": "FilamentSupport",
+    "alias": "filament-support",
+    "description": {
+        "ar": "Manage your customers contact us form and customer support ticking system for FilamentPHP",
+        "en": "Manage your customers contact us form and customer support ticking system for FilamentPHP",
+        "gr": "Manage your customers contact us form and customer support ticking system for FilamentPHP",
+        "sp": "Manage your customers contact us form and customer support ticking system for FilamentPHP"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "TomatoPHP\\FilamentSupport\\FilamentSupportServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Filament support",
+        "en": "Filament support",
+        "gr": "Filament support",
+        "sp": "Filament support"
+    },
+    "color": "#cc1448",
+    "icon": "heroicon-c-users",
+    "placeholder": "https://raw.githubusercontent.com/tomatophp/filament-support/master/art/screenshot.jpg",
+    "type": "plugin",
+    "version": "v1.0.0",
+    "github" : "https://github.com/tomatophp/filament-support",
+    "docs" : "https://github.com/tomatophp/filament-support"
+}
