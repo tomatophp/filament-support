@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        if(config('filament-cms.features.tickets')) {
+        if (config('filament-cms.features.tickets')) {
             Schema::create('tickets', function (Blueprint $table) {
                 $table->id();
 

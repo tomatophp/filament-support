@@ -5,10 +5,10 @@ namespace TomatoPHP\FilamentSupport\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * @property integer $id
- * @property integer $ticket_id
+ * @property int $id
+ * @property int $ticket_id
  * @property string $accountable_type
- * @property integer $accountable_id
+ * @property int $accountable_id
  * @property string $response
  * @property string $created_at
  * @property string $updated_at

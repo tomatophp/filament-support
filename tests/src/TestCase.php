@@ -16,7 +16,6 @@ use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
 use TomatoPHP\FilamentSupport\FilamentSupportServiceProvider;
-use TomatoPHP\FilamentSupport\Tests\Models\User;
 
 abstract class TestCase extends BaseTestCase
 {

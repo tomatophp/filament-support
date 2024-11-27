@@ -2,9 +2,9 @@
 
 namespace TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource\Pages;
 
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
+use TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource;
 
 class EditTicketComment extends EditRecord
 {

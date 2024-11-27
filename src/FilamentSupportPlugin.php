@@ -7,7 +7,6 @@ use Filament\Panel;
 
 class FilamentSupportPlugin implements Plugin
 {
-
     public function getId(): string
     {
         return 'filament-support';

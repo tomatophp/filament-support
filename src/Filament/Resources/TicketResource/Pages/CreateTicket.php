@@ -2,9 +2,8 @@
 
 namespace TomatoPHP\FilamentSupport\Filament\Resources\TicketResource\Pages;
 
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketResource;
-use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
+use TomatoPHP\FilamentSupport\Filament\Resources\TicketResource;
 
 class CreateTicket extends CreateRecord
 {

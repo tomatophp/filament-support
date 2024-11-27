@@ -2,9 +2,9 @@
 
 namespace TomatoPHP\FilamentSupport\Filament\Resources\TicketResource\Pages;
 
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
+use TomatoPHP\FilamentSupport\Filament\Resources\TicketResource;
 
 class ListTickets extends ListRecords
 {

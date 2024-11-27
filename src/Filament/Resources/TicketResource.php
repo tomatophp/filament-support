@@ -2,16 +2,13 @@
 
 namespace TomatoPHP\FilamentSupport\Filament\Resources;
 
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketResource\Pages;
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketResource\RelationManagers;
-use TomatoPHP\FilamentSupport\Models\Ticket;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
+use TomatoPHP\FilamentSupport\Filament\Resources\TicketResource\Pages;
+use TomatoPHP\FilamentSupport\Models\Ticket;
 
 class TicketResource extends Resource
 {

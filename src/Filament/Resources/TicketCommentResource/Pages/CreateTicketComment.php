@@ -2,9 +2,8 @@
 
 namespace TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource\Pages;
 
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource;
-use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
+use TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource;
 
 class CreateTicketComment extends CreateRecord
 {

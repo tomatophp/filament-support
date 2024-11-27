@@ -2,16 +2,13 @@
 
 namespace TomatoPHP\FilamentSupport\Filament\Resources;
 
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource\Pages;
-use TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource\RelationManagers;
-use TomatoPHP\FilamentSupport\Models\TicketComment;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
+use TomatoPHP\FilamentSupport\Filament\Resources\TicketCommentResource\Pages;
+use TomatoPHP\FilamentSupport\Models\TicketComment;
 
 class TicketCommentResource extends Resource
 {

@@ -5,17 +5,17 @@ namespace TomatoPHP\FilamentSupport\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * @property integer $id
- * @property integer $type_id
+ * @property int $id
+ * @property int $type_id
  * @property string $accountable_type
- * @property integer $accountable_id
+ * @property int $accountable_id
  * @property string $name
  * @property string $phone
  * @property string $subject
  * @property string $code
  * @property string $message
  * @property string $last_update
- * @property boolean $is_closed
+ * @property bool $is_closed
  * @property string $created_at
  * @property string $updated_at
  * @property TicketComment[] $ticketComments
@@ -29,8 +29,9 @@ class Ticket extends Model
     protected $fillable = ['type_id', 'accountable_type', 'accountable_id', 'name', 'phone', 'subject', 'code', 'message', 'last_update', 'is_closed', 'created_at', 'updated_at'];
 
     protected $casts = [
-        'is_closed' => 'boolean'
+        'is_closed' => 'boolean',
     ];
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
@@ -47,7 +48,8 @@ class Ticket extends Model
         return $this->belongsTo('TomatoPHP\FilamentSupport\Models\Type');
     }
 
-    public function accountable(){
+    public function accountable()
+    {
         return $this->morphTo();
     }
 }
